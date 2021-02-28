@@ -1,0 +1,13 @@
+body 
+{
+    background-image: url(IMG_1.jpg) ;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+#NOTE 
+{
+    letter-spacing: 3px;
+    font-size: 30px;
+	font-weight: bold;
+}

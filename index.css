@@ -1,0 +1,24 @@
+body {
+    background-image: url(IMG_2.jpg);
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+}
+	
+    .login_div1 , .login_div2
+	{
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 0px;
+}
+
+.h1 
+{
+	font-weight: bold;
+}

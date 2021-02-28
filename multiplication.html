@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Ultimate Mathematics Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="multiplication.css">
+</head>
+<body>
+
+<h4 id="player1_Name"style="color: white; padding-right = 30px;"></h4> <span id="player1_score" style="color: white;"></span>
+<br>
+<h4 id="player2_Name" style="color: white; padding-right: 30px;"></h4> <span id="player2_score" style="color: white;"></span>
+
+<div id="main_div" class="container">
+	<center>
+		<h2 style="color: white;">The Ultimate Mathematics Quiz</h2>
+		<h3 id="player_question" style="color: white;"></h3>
+		<h3 id="player_answer" style="color: white;"></h3>
+		<div id="output" class="col-lg-6"> </div>
+		<br>
+		<br>
+		<h4 style="color: white;">Number 1</h4>
+		<input type="text" id="number1" class="form-control" placeholder="Number 1">
+		<br>
+		<h4 style="color: white;">Number 2</h4>
+		<input type="text" id="number2" class="form-control" placeholder="Number 2">
+		<br>
+		<button onclick="send()" class="btn btn-default" style="width: 30%;">Send</button>
+	</center>
+</div>
+
+<script src="multiplication.js"></script>
+<script async src="https://drv.tw/inc/wd.js"></script></body>
+</html>
